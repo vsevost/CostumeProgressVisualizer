@@ -103,6 +103,7 @@ void VikasAssistant::readPackage(QFileInfo packagePath)
 
     }
 
+    ui.lbCostumeName->setText(packageDir.dirName());
     ui.label->repaint();
 }
 
